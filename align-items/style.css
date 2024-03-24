@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: burlywood;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+}
+
+body {
+	padding: 20px;
+}
+
+h1,
+h2 {
+	font-weight: 400;
+}
+
+.flex-container {
+	display: flex;
+	height: 400px; /* Setting a height for demonstration */
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center; /* Aligning content with space between */
+	border: 2px solid black; /* Just for visualization */
+}
+
+.flex-item {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	margin: 10px; /* Adding some margin for visual separation */
+	border: 1px solid black; /* Border to visualize individual flex items */
+}

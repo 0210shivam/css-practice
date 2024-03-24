@@ -1,0 +1,27 @@
+* {
+	margin: 20px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+	border: 2px solid blue;
+	padding: 10px;
+}
+
+.item2 {
+	grid-column: span 2;
+}
+
+.item4 {
+	grid-column: span 2;
+}
+
+.item5 {
+	grid-column: span 4;
+}

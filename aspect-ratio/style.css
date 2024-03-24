@@ -1,0 +1,15 @@
+.container {
+	width: 50%; /* Adjust as needed */
+	border: 2px solid #333;
+	margin: 20px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: #f0f0f0;
+	border: 1px solid #333;
+	/* Set aspect ratio to 16:9 */
+	aspect-ratio: 2 / 3;
+	width: 50%;
+}

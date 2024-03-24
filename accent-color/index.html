@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Accent Color Property</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<h1>Accent Color Property</h1>
+		<p>
+			The accent-color CSS property is used to specify the accent color of
+			various user interface elements, such as links, buttons, and form
+			controls.
+		</p>
+		<button>Click me</button>
+		<a
+			href="/"
+			target="_blank"
+			rel="noopener noreferrer"
+			>This is example link</a
+		>
+		<div class="slider-container">
+			<input
+				type="range"
+				min="0"
+				max="100"
+				value="50"
+				class="slider"
+				id="mySlider"
+			/>
+			<p>Value: <span id="sliderValue">50</span></p>
+		</div>
+
+		<script>
+			// Update the slider value display
+			var slider = document.getElementById("mySlider");
+			var output = document.getElementById("sliderValue");
+			output.innerHTML = slider.value; // Display the default slider value
+
+			document.documentElement.style.setProperty(
+				"--slider-value",
+				slider.value
+			); // Update the custom property
+
+			slider.oninput = function () {
+				output.innerHTML = this.value;
+				document.documentElement.style.setProperty(
+					"--slider-value",
+					this.value
+				);
+			};
+		</script>
+	</body>
+</html>

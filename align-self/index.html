@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Align Self Property</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<h1>Align Self Property</h1>
+		<p>
+			This is a CSS property used in Flexbox layouts to control the
+			alignment of individual flex items along the cross-axis
+			(perpendicular to the main-axis). It's particularly useful when you
+			want to override the default alignment set by the container's
+			align-items property for a specific flex item.
+		</p>
+		<p>
+			Some properties are - auto, flex-start, flex-end, center, baseline,
+			stretch
+		</p>
+		<br />
+		<h2>Example of Align Self Applied on third box-</h2>
+		<code>align-items: baseline</code>
+		<code>align-content: center</code>
+		<code>align-self: center</code> <span>and</span>
+		<div class="flex-container">
+			<div class="flex-item">1</div>
+			<div class="flex-item">2</div>
+			<div
+				style="
+					background-color: rebeccapurple;
+					color: white;
+					align-self: center;
+				"
+				class="flex-item"
+			>
+				3
+			</div>
+			<div class="flex-item">4</div>
+			<div
+				style="height: 150px"
+				class="flex-item"
+			>
+				5
+			</div>
+		</div>
+	</body>
+</html>

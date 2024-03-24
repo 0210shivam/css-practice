@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: burlywood;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+@keyframes newmove {
+	0% {
+		top: 0px;
+	}
+	25% {
+		top: 50px;
+		background-color: aqua;
+		width: 600px;
+	}
+	30% {
+		top: 150px;
+	}
+	100% {
+		top: 200px;
+	}
+}
+
+@keyframes another-move {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 100px;
+	}
+}
+.moving {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	animation-name: newmove; /* Name of the keyframes */
+	animation-duration: 8s; /* Duration of the animation */
+	animation-timing-function: ease-in-out; /* Timing function */
+	animation-delay: 1s; /* Delay before the animation starts */
+	animation-iteration-count: infinite; /* Number of times the animation should repeat */
+}
