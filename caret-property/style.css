@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: burlywood;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+input[type="text"] {
+	width: 200px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	/* Setting the caret color to red */
+	caret-color: red;
+}
