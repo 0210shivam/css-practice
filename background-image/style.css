@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: burlywood;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+.with-image {
+	padding: 20px;
+	background-image: url(./assets/background.jpg);
+	background-size: cover;
+	aspect-ratio: 16/7;
+}

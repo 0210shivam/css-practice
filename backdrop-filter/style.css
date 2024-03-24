@@ -4,7 +4,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: burlywood;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -12,8 +11,29 @@
 
 body {
 	padding: 20px;
+	background-color: burlywood;
 }
 
 h1 {
 	font-weight: 400;
+}
+
+.container {
+	/* width: 500px;
+	height: 500px; */
+	background-image: url(./assets/background.jpg); /* Replace 'background-image.jpg' with your image */
+	background-size: cover;
+	border-radius: 10px;
+	aspect-ratio: 16/7;
+	/* overflow: hidden; */
+}
+
+.content {
+	padding: 20px;
+	position: relative;
+	top: 120px;
+	color: firebrick;
+	font-size: large;
+	backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, 0.4); /* Adjust opacity as needed */
 }
