@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+}
+
+body {
+	padding: 20px;
+}
+
+h1,
+h2 {
+	font-weight: 400;
+}
+
+p {
+	font-size: 1rem; /* 16px */
+	line-height: 1.5rem; /* 24px */
+}
+
+@media screen and (max-width: 640px) {
+	.content {
+		background-color: deeppink;
+	}
+	p {
+		font-size: 0.75rem; /* 12px */
+		line-height: 1rem; /* 16px */
+	}
+
+	h1 {
+		font-size: 1.5rem; /* 24px */
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.content {
+		background-color: darkgray;
+	}
+	p {
+		font-size: 0.875rem; /* 14px */
+		line-height: 1.25rem; /* 20px */
+	}
+
+	h1 {
+		font-size: 1.5rem; /* 24px */
+	}
+}
+
+/* After 768 px - this will work */
+@media screen and (min-width: 768px) {
+	.content {
+		background-color: aqua;
+	}
+	p {
+		font-size: 1rem; /* 16px */
+		line-height: 1.5rem; /* 24px */
+	}
+
+	h1 {
+		font-size: 1.75rem; /* 28px */
+	}
+}
+
+/* After 1024px - this will work */
+@media screen and (min-width: 1024px) {
+	.content {
+		background-color: chocolate;
+	}
+	p {
+		font-size: 1.125rem; /* 18px */
+		line-height: 1.75rem; /* 28px */
+	}
+
+	h1 {
+		font-size: 2rem; /* 32px */
+	}
+}
